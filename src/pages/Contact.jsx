@@ -55,8 +55,8 @@ const Contact = () => {
                                     <h3 className="text-xl font-bold text-gray-900 mb-2">{t('contactPage.location')}</h3>
                                     <p className="text-gray-600 leading-relaxed">
                                         123 Islamic Center Road,<br />
-                                        Knowledge City, 54000,<br />
-                                        Pakistan
+                                        Knowledge City, 431122,<br />
+                                        Beed
                                     </p>
                                 </div>
                             </div>
