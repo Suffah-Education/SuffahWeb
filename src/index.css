@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* Global Urdu Font Class */
+.font-urdu {
+  font-family: "Noto Nastaliq Urdu", serif !important;
+}
+
+.font-urdu * {
+  font-family: "Noto Nastaliq Urdu", serif !important;
+}

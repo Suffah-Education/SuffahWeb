@@ -1,0 +1,276 @@
+{
+    "nav": {
+        "home": "Home",
+        "courses": "Courses",
+        "faculties": "Faculties",
+        "services": "Services",
+        "about": "About",
+        "contact": "Contact",
+        "register": "Register"
+    },
+    "hero": {
+        "welcome": "Welcome to Excellence",
+        "title1": "Transform Your",
+        "title2": "Learning Journey",
+        "subtitle": "Experience world-class education with cutting-edge technology and personalized care. Join thousands of students achieving their dreams.",
+        "startLearning": "Start Learning",
+        "watchDemo": "Watch Demo",
+        "activeStudents": "Active Students",
+        "courseRating": "Course Rating"
+    },
+    "stats": {
+        "students": "Students",
+        "expertFaculty": "Expert Faculty",
+        "graduates": "Graduates",
+        "successRate": "Success Rate"
+    },
+    "features": {
+        "title": "Why Choose The Suffah Education?",
+        "subtitle": "Discover the features that make us different",
+        "quran": {
+            "title": "Memorizing Quran",
+            "description": "Your personalized learning content goes here. Comprehensive Quran memorization programs tailored for all ages."
+        },
+        "academic": {
+            "title": "Academic Studies",
+            "description": "Engaging interactive class content here. Blending traditional Islamic studies with modern academic excellence."
+        },
+        "facilities": {
+            "title": "Facilities In Suffah",
+            "description": "Professional mentorship details here. State-of-the-art facilities designed to nurture both mind and soul."
+        }
+    },
+    "faculty": {
+        "title": "Meet Our Expert Faculty",
+        "subtitle": "Learn from industry leaders and academic experts",
+        "name": "Hafiz Sayyed Mohammad Musaib",
+        "role": "Aalim",
+        "graduates": "Graduates",
+        "completedQuran": "Completed Quran",
+        "completedQaida": "Completed Qaida",
+        "students": "Students",
+        "rating": "Rating",
+        "experience": "years Exp",
+        "allTeachers": "All Teachers"
+    },
+    "cta": {
+        "title": "Want to Learn From These Experts?",
+        "subtitle": "Join our community of learners and start your journey towards mastering the Quran and Islamic studies today.",
+        "getStarted": "Get Started Now",
+        "contactUs": "Contact Us"
+    },
+    "about": {
+        "ourStory": "Our Story",
+        "title": "Dedicated to Excellence in Islamic Education",
+        "text1": "The Suffah Education is a religious and educational institution established to promote Islamic teachings in the light of the Qur'an and Sunnah. Its purpose is to awaken Islamic awareness among children, youth, and adults of the Muslim Ummah, to spread the understanding of the Holy Qur'an, and to present Islamic knowledge in a modern and accessible way.",
+        "text2": "The Suffah Education is also an online platform created to spread Islamic knowledge to every corner of the world. Here, qualified scholars (Ulama) conduct live classes that include the teaching of Qur'an with Tajweed, Noorani Qaida, Hadith, Seerah of Prophet Muhammad ﷺ, lives of Sahabah, and Islamic history.",
+        "text3": "Our mission is to nurture individuals who are righteous in character, sincere in faith, and active in spreading the message of Islam through both knowledge and practice.",
+        "readMore": "Read More",
+        "urduTitle": "الصفہ کا تعارف",
+        "urduText1": "الصفہ ایک دینی و تعلیمی ادارہ ہے جو قرآن و سنت کی روشنی میں اسلامی تعلیمات کے فروغ کے لیے قائم کیا گیا ہے۔ اس کا مقصد امت مسلمہ کے بچوں، نوجوانوں اور بڑوں میں دینی شعور بیدار کرنا، قرآن مجید کی تعلیم و تفہیم عام کرنا، اور اسلامی علوم کو جدید انداز میں پیش کرنا ہے۔",
+        "urduText2": "الصفہ ایک آن لائن پلیٹ فارم بھی ہے جو دنیا کے ہر کونے میں اسلامی علم کو عام کرنے کے لیے بنایا گیا ہے۔ یہاں علماء کرام براہ راست کلاسز لیتے ہیں جن میں قرآن مجید مع تجوید، نورانی قاعدہ، حدیث، سیرت النبی ﷺ، صحابہ کرام رضی اللہ عنہم کی زندگیاں اور اسلامی تاریخ کی تعلیم دی جاتی ہے۔"
+    },
+    "reviews": {
+        "title": "What Our Students Say",
+        "subtitle": "Real stories from our community",
+        "student1": {
+            "name": "Abdullah Khan",
+            "role": "Student",
+            "text": "The teachers are incredibly patient and knowledgeable. I've learned so much in just a few months."
+        },
+        "student2": {
+            "name": "Fatima Ahmed",
+            "role": "Parent",
+            "text": "My children love their Quran classes. The interactive approach keeps them engaged and motivated."
+        },
+        "student3": {
+            "name": "Usman Ali",
+            "role": "Graduate",
+            "text": "Completing my Hifz here was a life-changing experience. The support system is amazing."
+        }
+    },
+    "footer": {
+        "tagline": "Empowering minds with Islamic values and modern education. Join us in our journey of knowledge and enlightenment.",
+        "quickLinks": "Quick Links",
+        "popularCourses": "Popular Courses",
+        "quranMemorization": "Quran Memorization",
+        "tajweedRules": "Tajweed Rules",
+        "islamicStudies": "Islamic Studies",
+        "arabicLanguage": "Arabic Language",
+        "contactUs": "Contact Us",
+        "location": "123 Islamic Center Road, Knowledge City, 54000",
+        "developedBy": "Developed by",
+        "company": "Meta Future Technology",
+        "privacyPolicy": "Privacy Policy",
+        "termsConditions": "Terms & Conditions"
+    },
+    "courses": {
+        "title": "Our Courses",
+        "subtitle": "Explore our wide range of Islamic courses designed to help you grow in knowledge and faith.",
+        "allCourses": "All Courses",
+        "quran": "Quran",
+        "arabic": "Arabic",
+        "islamicStudies": "Islamic Studies",
+        "applyNow": "Apply Now",
+        "duration": "Duration",
+        "course1": {
+            "title": "Nazra Quran",
+            "subtitle": "Learn to read Quran with Tajweed",
+            "price": "$30/mo",
+            "students": "120",
+            "duration": "6 Months"
+        },
+        "course2": {
+            "title": "Hifz Quran",
+            "subtitle": "Complete Quran memorization program",
+            "price": "$50/mo",
+            "students": "85",
+            "duration": "3 Years"
+        },
+        "course3": {
+            "title": "Islamic Studies",
+            "subtitle": "Comprehensive course on Islamic basics",
+            "price": "$25/mo",
+            "students": "200",
+            "duration": "1 Year"
+        },
+        "course4": {
+            "title": "Arabic Language",
+            "subtitle": "Master Arabic reading and speaking",
+            "price": "$40/mo",
+            "students": "150",
+            "duration": "1 Year"
+        },
+        "course5": {
+            "title": "Tajweed Course",
+            "subtitle": "Advanced pronunciation rules",
+            "price": "$35/mo",
+            "students": "95",
+            "duration": "4 Months"
+        },
+        "course6": {
+            "title": "Seerah Studies",
+            "subtitle": "Life of Prophet Muhammad (PBUH)",
+            "price": "$20/mo",
+            "students": "180",
+            "duration": "3 Months"
+        }
+    },
+    "faculties": {
+        "title": "Our Distinguished Faculty",
+        "subtitle": "Learn from qualified and experienced teachers dedicated to your spiritual and academic growth.",
+        "faculty1": {
+            "name": "Hafiz Sayyed Musaib",
+            "title": "Senior Quran Instructor",
+            "badges": [
+                "Hifz",
+                "Tajweed"
+            ],
+            "students": "500+",
+            "rating": "4.9"
+        },
+        "faculty2": {
+            "name": "Sheikh Abdullah",
+            "title": "Islamic Studies Head",
+            "badges": [
+                "Fiqh",
+                "Hadith"
+            ],
+            "students": "300+",
+            "rating": "5.0"
+        },
+        "faculty3": {
+            "name": "Ustadha Fatima",
+            "title": "Tajweed Expert",
+            "badges": [
+                "Tajweed",
+                "Qaida"
+            ],
+            "students": "450+",
+            "rating": "4.8"
+        },
+        "faculty4": {
+            "name": "Qari Ahmed",
+            "title": "Qira'at Specialist",
+            "badges": [
+                "Qira'at",
+                "Maqamat"
+            ],
+            "students": "200+",
+            "rating": "4.9"
+        },
+        "faculty5": {
+            "name": "Ustadha Aisha",
+            "title": "Arabic Language Instructor",
+            "badges": [
+                "Arabic",
+                "Grammar"
+            ],
+            "students": "350+",
+            "rating": "4.9"
+        },
+        "faculty6": {
+            "name": "Sheikh Omar",
+            "title": "Seerah Lecturer",
+            "badges": [
+                "History",
+                "Seerah"
+            ],
+            "students": "600+",
+            "rating": "5.0"
+        }
+    },
+    "services": {
+        "title": "Our Services",
+        "subtitle": "Comprehensive educational services designed to meet the diverse needs of our global student base.",
+        "service1": {
+            "title": "Online Quran Classes",
+            "description": "One-on-one interactive video sessions with qualified tutors available 24/7."
+        },
+        "service2": {
+            "title": "Tajweed & Tarteel",
+            "description": "Specialized courses to perfect your recitation with proper pronunciation and rules."
+        },
+        "service3": {
+            "title": "Group Learning",
+            "description": "Collaborative learning environments for students to learn from peers and instructors."
+        },
+        "service4": {
+            "title": "Multilingual Support",
+            "description": "Classes available in English, Urdu, Arabic, and other major languages."
+        },
+        "service5": {
+            "title": "Certification",
+            "description": "Official certificates awarded upon successful completion of courses."
+        },
+        "service6": {
+            "title": "Flexible Scheduling",
+            "description": "Choose class timings that fit your busy schedule and lifestyle."
+        }
+    },
+    "aboutPage": {
+        "title": "About Us",
+        "subtitle": "Learn about our journey, our mission, and the values that drive us forward.",
+        "missionTitle": "Our Mission",
+        "missionText": "To provide high-quality Islamic education that is accessible to everyone, regardless of their location or background. We aim to foster a deep understanding of the Quran and Sunnah, empowering individuals to live their lives according to Islamic principles.",
+        "authenticKnowledge": "Authentic Knowledge",
+        "modernTeaching": "Modern Teaching Methods",
+        "characterBuilding": "Character Building",
+        "visionTitle": "Our Vision",
+        "visionText": "To be a leading global institution for Islamic learning, recognized for our commitment to excellence, innovation, and the spiritual growth of our students. We envision a world where the light of the Quran reaches every home and heart."
+    },
+    "contactPage": {
+        "title": "Contact Us",
+        "subtitle": "We'd love to hear from you. Reach out to us for any questions or inquiries.",
+        "getInTouch": "Get in Touch",
+        "phone": "Phone",
+        "email": "Email",
+        "location": "Location",
+        "sendMessage": "Send a Message",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "emailAddress": "Email Address",
+        "message": "Message",
+        "sendBtn": "Send Message"
+    }
+}
