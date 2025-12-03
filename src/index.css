@@ -8,3 +8,24 @@
 .font-urdu * {
   font-family: "Noto Nastaliq Urdu", serif !important;
 }
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Prevent body scroll when mobile menu is open */
+body.menu-open {
+  overflow: hidden;
+}
+
+/* Mobile Drawer Overlay */
+.mobile-drawer-overlay {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* RTL Support for Flexbox */
+[dir="rtl"] .space-x-reverse> :not([hidden])~ :not([hidden]) {
+  --tw-space-x-reverse: 1;
+}
