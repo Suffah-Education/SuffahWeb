@@ -1,9 +1,11 @@
 import React from 'react';
 import { Play, BookOpen, GraduationCap, Star } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { useCheckAuth } from '../hooks/useCheckAuth';
 
 const Hero = () => {
     const { t } = useTranslation();
+    const { handleGetStarted } = useCheckAuth();
 
     return (
         <section className="relative bg-gradient-to-br from-blue-50 to-purple-50 py-2 lg:py-10 overflow-hidden">
@@ -30,7 +32,10 @@ const Hero = () => {
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                            <button className="px-8 py-4 rounded-full bg-gradient-to-r from-blue-500 to-cyan-500 text-white font-bold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all">
+                            <button
+                                onClick={handleGetStarted}
+                                className="px-8 py-4 rounded-full bg-gradient-to-r from-blue-500 to-cyan-500 text-white font-bold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all"
+                            >
                                 {t('hero.startLearning')}
                             </button>
                             <button className="px-8 py-4 rounded-full bg-white text-blue-600 font-bold text-lg border-2 border-blue-100 shadow-sm hover:border-blue-200 flex items-center justify-center gap-2 transition-all">

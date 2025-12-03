@@ -2,11 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { useCheckAuth } from '../hooks/useCheckAuth';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const location = useLocation();
     const { t, i18n } = useTranslation();
+    const { handleGetStarted } = useCheckAuth();
     const isRTL = i18n.language === 'ur';
 
     // Auto apply Urdu font + RTL on language switch
@@ -95,12 +97,12 @@ const Navbar = () => {
 
                     {/* Desktop Buttons */}
                     <div className={`hidden md:flex items-center ${isRTL ? 'space-x-reverse space-x-4' : 'space-x-4'}`}>
-                        <Link
-                            to="/register"
+                        <button
+                            onClick={handleGetStarted}
                             className="px-6 py-2 rounded-full border-2 border-blue-600 text-blue-600 font-semibold hover:bg-blue-50 transition-colors"
                         >
                             {t('nav.register')}
-                        </Link>
+                        </button>
                         <button
                             onClick={toggleLanguage}
                             className="px-4 py-2 rounded-full bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-colors"
@@ -153,13 +155,15 @@ const Navbar = () => {
 
                         {/* Mobile Action Buttons */}
                         <div className="mt-8 flex flex-col space-y-3 px-2">
-                            <Link
-                                to="/register"
+                            <button
+                                onClick={() => {
+                                    setIsOpen(false);
+                                    handleGetStarted();
+                                }}
                                 className="w-full text-center px-6 py-3 rounded-full border-2 border-blue-600 text-blue-600 font-semibold hover:bg-blue-50 transition-colors"
-                                onClick={() => setIsOpen(false)}
                             >
                                 {t('nav.register')}
-                            </Link>
+                            </button>
                             <button
                                 onClick={() => {
                                     toggleLanguage();
