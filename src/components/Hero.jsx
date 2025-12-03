@@ -8,7 +8,7 @@ const Hero = () => {
     const { handleGetStarted } = useCheckAuth();
 
     return (
-        <section className="relative bg-gradient-to-br from-blue-50 to-purple-50 py-2 lg:py-10 overflow-hidden">
+        <section className="relative bg-linear-to-br from-blue-50 to-purple-50 py-2 lg:py-10 overflow-hidden">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
                     {/* Left Content */}
@@ -19,10 +19,10 @@ const Hero = () => {
                         </div>
 
                         <h1 className="text-5xl lg:text-7xl font-bold leading-tight mb-6">
-                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 block mb-2">
+                            <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-600 to-cyan-500 block mb-2">
                                 {t('hero.title1')}
                             </span>
-                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-600">
+                            <span className="text-transparent bg-clip-text bg-linear-to-r from-cyan-500 to-blue-600">
                                 {t('hero.title2')}
                             </span>
                         </h1>
@@ -34,7 +34,7 @@ const Hero = () => {
                         <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                             <button
                                 onClick={handleGetStarted}
-                                className="px-8 py-4 rounded-full bg-gradient-to-r from-blue-500 to-cyan-500 text-white font-bold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all"
+                                className="px-8 py-4 rounded-full bg-linear-to-r from-blue-500 to-cyan-500 text-white font-bold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all"
                             >
                                 {t('hero.startLearning')}
                             </button>
