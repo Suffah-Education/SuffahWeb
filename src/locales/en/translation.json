@@ -116,42 +116,42 @@
         "course1": {
             "title": "Nazra Quran",
             "subtitle": "Learn to read Quran with Tajweed",
-            "price": "$30/mo",
+            "price": "100Rs/mo",
             "students": "120",
             "duration": "6 Months"
         },
         "course2": {
             "title": "Hifz Quran",
             "subtitle": "Complete Quran memorization program",
-            "price": "$50/mo",
+            "price": "100Rs/mo",
             "students": "85",
             "duration": "3 Years"
         },
         "course3": {
             "title": "Islamic Studies",
             "subtitle": "Comprehensive course on Islamic basics",
-            "price": "$25/mo",
+            "price": "100Rs/mo",
             "students": "200",
             "duration": "1 Year"
         },
         "course4": {
             "title": "Arabic Language",
             "subtitle": "Master Arabic reading and speaking",
-            "price": "$40/mo",
+            "price": "100Rs/mo",
             "students": "150",
             "duration": "1 Year"
         },
         "course5": {
             "title": "Tajweed Course",
             "subtitle": "Advanced pronunciation rules",
-            "price": "$35/mo",
+            "price": "100Rs/mo",
             "students": "95",
             "duration": "4 Months"
         },
         "course6": {
             "title": "Seerah Studies",
             "subtitle": "Life of Prophet Muhammad (PBUH)",
-            "price": "$20/mo",
+            "price": "100Rs/mo",
             "students": "180",
             "duration": "3 Months"
         }
