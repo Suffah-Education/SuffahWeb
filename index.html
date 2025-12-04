@@ -2,17 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" href="/images/Logo.png" type="image/png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <title>suffahweb</title>
+
     <!-- Google Fonts for Urdu -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;600;700&display=swap" rel="stylesheet">
   </head>
+
   <body>
+
+    <!-- 🌟 Global Loader (Tailwind) -->
+    <div
+      id="global-loader"
+      class="fixed inset-0 bg-white flex items-center justify-center z-999999 transition-opacity duration-500"
+    >
+      <div class="w-14 h-14 border-4 border-gray-300 border-t-blue-500 rounded-full animate-spin"></div>
+    </div>
+
+    <!-- React Root -->
     <div id="root"></div>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

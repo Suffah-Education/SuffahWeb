@@ -21,7 +21,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-conditions" element={<TermsConditions />} />
-        {/* Fallback route */}
+
+        {/* fallback */}
         <Route path="*" element={<Home />} />
       </Routes>
     </Router>

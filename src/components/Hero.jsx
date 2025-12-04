@@ -18,14 +18,18 @@ const Hero = () => {
                             <span className="text-blue-600 font-medium text-sm">{t('hero.welcome')}</span>
                         </div>
 
-                        <h1 className="text-5xl lg:text-7xl font-bold leading-tight mb-6">
-                            <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-600 to-cyan-500 block mb-2">
-                                {t('hero.title1')}
-                            </span>
-                            <span className="text-transparent bg-clip-text bg-linear-to-r from-cyan-500 to-blue-600">
-                                {t('hero.title2')}
-                            </span>
-                        </h1>
+                        {/* FIX: Aggressive vertical spacing applied. Wrapper padding is py-16, h1 has leading-[2.0] and its own py-4 padding. */}
+                        <div className="relative overflow-visible">
+                            <h1 className="font-bold text-3xl sm:text-4xl lg:text-6xl leading-[2.5] py-4 overflow-visible">
+                                <span className="block text-transparent bg-clip-text bg-linear-to-r from-blue-600 to-cyan-500">
+                                    {t('hero.title1')}
+                                </span>
+
+                                <span className="block text-transparent bg-clip-text bg-linear-to-r from-cyan-500 to-blue-600">
+                                    {t('hero.title2')}
+                                </span>
+                            </h1>
+                        </div>
 
                         <p className="text-gray-600 text-lg mb-8 max-w-xl mx-auto lg:mx-0">
                             {t('hero.subtitle')}
