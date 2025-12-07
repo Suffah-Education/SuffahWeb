@@ -10,12 +10,12 @@ const Faculties = () => {
     // Define all faculty images from /public/images
     // This list should include all faculty member images
     const facultyImages = [
-        'musaib.JPG',
-        'musaddik.jpeg',
-        'mudassir.jpeg',
-        'muhsin.jpeg',
-        'muzammil.jpeg',
-        'Rashid.jpeg'
+        'Aalim Musaib.JPG',
+        'Mufti Musaddik.jpeg',
+        'Hafiz Mudassir.jpeg',
+        'Aalim Muhsin.jpeg',
+        'Hafiz Muzammil.jpeg',
+        'Maulana Rashid.jpeg'
     ];
 
     // Dynamically generate faculty members from images

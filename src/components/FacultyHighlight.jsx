@@ -20,7 +20,7 @@ const FacultyHighlight = () => {
                         <div className="w-full md:w-1/3 text-center">
                             <div className="w-48 h-48 mx-auto rounded-3xl overflow-hidden bg-gray-200 mb-4">
                                 <img
-                                    src="/images/musaddik.jpeg"
+                                    src="/images/Mufti Musaddik.jpeg"
                                     alt="Faculty"
                                     className="w-full h-full object-cover"
                                 />

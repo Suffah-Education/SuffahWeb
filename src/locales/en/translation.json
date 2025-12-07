@@ -11,7 +11,7 @@
     "hero": {
         "welcome": "Welcome to Excellence",
         "title1": "Transform Your",
-        "title2": "Learning Journey",
+        "title2": "Learning Style",
         "subtitle": "Experience world-class education with cutting-edge technology and personalized care. Join thousands of students achieving their dreams.",
         "startLearning": "Start Learning",
         "watchDemo": "Watch Demo",
@@ -43,8 +43,8 @@
     "faculty": {
         "title": "Meet Our Expert Faculty",
         "subtitle": "Learn from industry leaders and academic experts",
-        "name": "Hafiz Sayyed Mohammad Musaib",
-        "role": "Aalim",
+        "name": "Mufti Musaddik",
+        "role": "Hafiz,Mufti",
         "graduates": "Graduates",
         "completedQuran": "Completed Quran",
         "completedQaida": "Completed Qaida",
@@ -68,7 +68,8 @@
         "readMore": "Read More",
         "urduTitle": "الصفہ کا تعارف",
         "urduText1": "الصفہ ایک دینی و تعلیمی ادارہ ہے جو قرآن و سنت کی روشنی میں اسلامی تعلیمات کے فروغ کے لیے قائم کیا گیا ہے۔ اس کا مقصد امت مسلمہ کے بچوں، نوجوانوں اور بڑوں میں دینی شعور بیدار کرنا، قرآن مجید کی تعلیم و تفہیم عام کرنا، اور اسلامی علوم کو جدید انداز میں پیش کرنا ہے۔",
-        "urduText2": "الصفہ ایک آن لائن پلیٹ فارم بھی ہے جو دنیا کے ہر کونے میں اسلامی علم کو عام کرنے کے لیے بنایا گیا ہے۔ یہاں علماء کرام براہ راست کلاسز لیتے ہیں جن میں قرآن مجید مع تجوید، نورانی قاعدہ، حدیث، سیرت النبی ﷺ، صحابہ کرام رضی اللہ عنہم کی زندگیاں اور اسلامی تاریخ کی تعلیم دی جاتی ہے۔"
+        "urduText2": "الصفہ ایک آن لائن پلیٹ فارم بھی ہے جو دنیا کے ہر کونے میں اسلامی علم کو عام کرنے کے لیے بنایا گیا ہے۔ یہاں علماء کرام براہ راست کلاسز لیتے ہیں جن میں قرآن مجید مع تجوید، نورانی قاعدہ، حدیث، سیرت النبی ﷺ، صحابہ کرام رضی اللہ عنہم کی زندگیاں اور اسلامی تاریخ کی تعلیم دی جاتی ہے۔ایک آن لائن پلیٹ فارم بھی ہے جو دنیا کے ہر کونے میں اسلامی علم کو عام کرنے کے لیے بنایا گیا ہے۔ یہاں علماء کرام براہ راست کلاسز لیتے ہیں جن میں قرآن مجید مع تجوید، نورانی قاعدہ، حدیث، سیرت النبی ﷺ، صحابہ کرام رضی اللہ عنہم کی زندگیاں اور اسلامی تاریخ کی تعلیم دی جاتی ہے۔",
+        "urduText3":"ہمارا مشن ایسے افراد کی پرورش کرنا ہے جو نیک کردار، ایمان میں مخلص اور علم اور عمل دونوں کے ذریعے اسلام کے پیغام کو پھیلانے میں سرگرم ہوں۔"
     },
     "reviews": {
         "title": "What Our Students Say",
@@ -98,7 +99,7 @@
         "islamicStudies": "Islamic Studies",
         "arabicLanguage": "Arabic Language",
         "contactUs": "Contact Us",
-        "location": "123 Islamic Center Road, Knowledge City, 54000",
+        "location": "Near Mane Petrol Pump,Barshi Road,Beed(431122),Maharashtra",
         "developedBy": "Developed by",
         "company": "Meta Future Technology",
         "privacyPolicy": "Privacy Policy",
@@ -161,7 +162,7 @@
         "subtitle": "Learn from qualified and experienced teachers dedicated to your spiritual and academic growth.",
         "faculty1": {
             "name": "Hafiz Sayyed Musaib",
-            "title": "Senior Quran Instructor",
+            "title": "Qaida Specialist",
             "badges": [
                 "Hifz",
                 "Tajweed"
@@ -171,7 +172,7 @@
         },
         "faculty2": {
             "name": "Sheikh Abdullah",
-            "title": "Islamic Studies Head",
+            "title": "Qaida And Nazera Specialist",
             "badges": [
                 "Fiqh",
                 "Hadith"
@@ -181,7 +182,7 @@
         },
         "faculty3": {
             "name": "Ustadha Fatima",
-            "title": "Tajweed Expert",
+            "title": "Qaida & Nazera Instructor",
             "badges": [
                 "Tajweed",
                 "Qaida"
@@ -191,7 +192,7 @@
         },
         "faculty4": {
             "name": "Qari Ahmed",
-            "title": "Qira'at Specialist",
+            "title": "Qaida & Nazera Specialist",
             "badges": [
                 "Qira'at",
                 "Maqamat"
@@ -201,7 +202,7 @@
         },
         "faculty5": {
             "name": "Ustadha Aisha",
-            "title": "Arabic Language Instructor",
+            "title": "Qaida & Nazera Specialist",
             "badges": [
                 "Arabic",
                 "Grammar"
@@ -211,7 +212,7 @@
         },
         "faculty6": {
             "name": "Sheikh Omar",
-            "title": "Seerah Lecturer",
+            "title": "Senior Qaida And Nazera Instructor",
             "badges": [
                 "History",
                 "Seerah"
