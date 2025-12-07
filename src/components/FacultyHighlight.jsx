@@ -72,7 +72,7 @@ const FacultyHighlight = () => {
                             <div className="flex flex-wrap items-center gap-6 pt-6 border-t border-gray-100">
                                 <div className="flex items-center gap-2 text-gray-600">
                                     <Mail size={18} />
-                                    <span className="text-sm">mohammad.Musaib@institute.suffah</span>
+                                    <span className="text-sm">Pathan.Musaddik@institute.suffah</span>
                                 </div>
                                 <div className="flex items-center gap-1">
                                     {[1, 2, 3, 4, 5].map((star) => (
