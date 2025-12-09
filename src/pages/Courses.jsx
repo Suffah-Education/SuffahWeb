@@ -13,7 +13,7 @@ const Courses = () => {
             title: t('courses.course1.title'),
             subtitle: t('courses.course1.subtitle'),
             price: t('courses.course1.price'),
-            image: "Public/images/Basic-Qaida-Your-Gateway-to-the-Quran.webp",
+            image: "/images/Basic-Qaida-Your-Gateway-to-the-Quran.webp",
             students: t('courses.course1.students'),
             duration: t('courses.course1.duration')
         },
