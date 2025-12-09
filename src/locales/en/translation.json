@@ -69,7 +69,7 @@
         "urduTitle": "الصفہ کا تعارف",
         "urduText1": "الصفہ ایک دینی و تعلیمی ادارہ ہے جو قرآن و سنت کی روشنی میں اسلامی تعلیمات کے فروغ کے لیے قائم کیا گیا ہے۔ اس کا مقصد امت مسلمہ کے بچوں، نوجوانوں اور بڑوں میں دینی شعور بیدار کرنا، قرآن مجید کی تعلیم و تفہیم عام کرنا، اور اسلامی علوم کو جدید انداز میں پیش کرنا ہے۔",
         "urduText2": "الصفہ ایک آن لائن پلیٹ فارم بھی ہے جو دنیا کے ہر کونے میں اسلامی علم کو عام کرنے کے لیے بنایا گیا ہے۔ یہاں علماء کرام براہ راست کلاسز لیتے ہیں جن میں قرآن مجید مع تجوید، نورانی قاعدہ، حدیث، سیرت النبی ﷺ، صحابہ کرام رضی اللہ عنہم کی زندگیاں اور اسلامی تاریخ کی تعلیم دی جاتی ہے۔ایک آن لائن پلیٹ فارم بھی ہے جو دنیا کے ہر کونے میں اسلامی علم کو عام کرنے کے لیے بنایا گیا ہے۔ یہاں علماء کرام براہ راست کلاسز لیتے ہیں جن میں قرآن مجید مع تجوید، نورانی قاعدہ، حدیث، سیرت النبی ﷺ، صحابہ کرام رضی اللہ عنہم کی زندگیاں اور اسلامی تاریخ کی تعلیم دی جاتی ہے۔",
-        "urduText3":"ہمارا مشن ایسے افراد کی پرورش کرنا ہے جو نیک کردار، ایمان میں مخلص اور علم اور عمل دونوں کے ذریعے اسلام کے پیغام کو پھیلانے میں سرگرم ہوں۔"
+        "urduText3":" ہمارا مشن ایسے افراد کی تربیت کرنا ہے جو کردار میں نیک، ایمان میں مخلص اور علم و عمل کے ذریعے اسلام کے پیغام کو پھیلانے میں سرگرم ہوں۔ "
     },
     "reviews": {
         "title": "What Our Students Say",
@@ -115,44 +115,44 @@
         "applyNow": "Apply Now",
         "duration": "Duration",
         "course1": {
-            "title": "Nazra Quran",
-            "subtitle": "Learn to read Quran with Tajweed",
-            "price": "100Rs/mo",
+            "title": "Basic Qaida Learning",
+            "subtitle": "Learn to read Qaida From Basics",
+            "price": "499Rs/mo",
             "students": "120",
             "duration": "6 Months"
         },
         "course2": {
-            "title": "Hifz Quran",
-            "subtitle": "Complete Quran memorization program",
-            "price": "100Rs/mo",
+            "title": "Nazera-e-Quran",
+            "subtitle": "Complete Quran nazera program",
+            "price": "499Rs/mo",
             "students": "85",
             "duration": "3 Years"
         },
         "course3": {
-            "title": "Islamic Studies",
-            "subtitle": "Comprehensive course on Islamic basics",
-            "price": "100Rs/mo",
+            "title": "Hifz-e-Quran",
+            "subtitle": "Complete Hifz-e-Quran Program",
+            "price": "599Rs/mo",
             "students": "200",
             "duration": "1 Year"
         },
         "course4": {
-            "title": "Arabic Language",
-            "subtitle": "Master Arabic reading and speaking",
-            "price": "100Rs/mo",
+            "title": "Tajweed-e-Quran(تجویدِ قرآن)",
+            "subtitle": "Advanced pronunciation rules",
+            "price": "499Rs/mo",
             "students": "150",
             "duration": "1 Year"
         },
         "course5": {
-            "title": "Tajweed Course",
-            "subtitle": "Advanced pronunciation rules",
-            "price": "100Rs/mo",
+            "title": "Islamic Studies",
+            "subtitle": "Fundamentals of Islamic Knowledge",
+            "price": "399Rs/mo",
             "students": "95",
             "duration": "4 Months"
         },
         "course6": {
             "title": "Seerah Studies",
             "subtitle": "Life of Prophet Muhammad (PBUH)",
-            "price": "100Rs/mo",
+            "price": "299Rs/mo",
             "students": "180",
             "duration": "3 Months"
         }
@@ -171,7 +171,7 @@
             "rating": "4.9"
         },
         "faculty2": {
-            "name": "Sheikh Abdullah",
+            "name": "Mufti Musaddik Khan",
             "title": "Qaida And Nazera Specialist",
             "badges": [
                 "Fiqh",

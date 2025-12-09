@@ -13,7 +13,7 @@ const Courses = () => {
             title: t('courses.course1.title'),
             subtitle: t('courses.course1.subtitle'),
             price: t('courses.course1.price'),
-            image: "https://images.unsplash.com/photo-1609599006353-e629aaabfeae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+            image: "Public/images/Basic-Qaida-Your-Gateway-to-the-Quran.webp",
             students: t('courses.course1.students'),
             duration: t('courses.course1.duration')
         },
@@ -22,7 +22,7 @@ const Courses = () => {
             title: t('courses.course2.title'),
             subtitle: t('courses.course2.subtitle'),
             price: t('courses.course2.price'),
-            image: "https://images.unsplash.com/photo-1584297091622-af8e55da216b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+            image: "/images/Nazera.png",
             students: t('courses.course2.students'),
             duration: t('courses.course2.duration')
         },
@@ -31,7 +31,7 @@ const Courses = () => {
             title: t('courses.course3.title'),
             subtitle: t('courses.course3.subtitle'),
             price: t('courses.course3.price'),
-            image: "https://images.unsplash.com/photo-1585036156171-384164a8c675?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+            image: "/images/hifz-e-quran.jpg",
             students: t('courses.course3.students'),
             duration: t('courses.course3.duration')
         },
@@ -40,7 +40,7 @@ const Courses = () => {
             title: t('courses.course4.title'),
             subtitle: t('courses.course4.subtitle'),
             price: t('courses.course4.price'),
-            image: "https://images.unsplash.com/photo-1555447405-058428d1deef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+            image: "/images/hq720.jpg",
             students: t('courses.course4.students'),
             duration: t('courses.course4.duration')
         },
@@ -58,7 +58,7 @@ const Courses = () => {
             title: t('courses.course6.title'),
             subtitle: t('courses.course6.subtitle'),
             price: t('courses.course6.price'),
-            image: "https://images.unsplash.com/photo-1597935258735-e254c1639d91?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+            image: "/images/default.png",
             students: t('courses.course6.students'),
             duration: t('courses.course6.duration')
         }
