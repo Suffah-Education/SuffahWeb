@@ -19,7 +19,7 @@ const FloatingCourseCarousel = () => {
       subtitle: "Complete Quran nazera program",
       price: "499Rs/mo",
       students: "85",
-      duration: "3 Years",
+      duration: "1.5 Years",
       image: "/images/Nazera.png",
       color: "from-blue-500 to-indigo-600"
     },
@@ -28,7 +28,7 @@ const FloatingCourseCarousel = () => {
       subtitle: "Complete Hifz-e-Quran Program",
       price: "599Rs/mo",
       students: "200",
-      duration: "1 Year",
+      duration: "3 Year",
       image: "/images/hifz-e-quran.jpg",
       color: "from-purple-500 to-pink-600"
     },
