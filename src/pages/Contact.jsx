@@ -31,8 +31,8 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <h3 className="text-xl font-bold text-gray-900 mb-2">{t('contactPage.phone')}</h3>
-                                    <p className="text-gray-600">+92 300 1234567</p>
-                                    <p className="text-gray-600">+92 321 7654321</p>
+                                    <p className="text-gray-600">+91 98500 78899</p>
+                                    <p className="text-gray-600">+91 77758 22357</p>
                                 </div>
                             </div>
 
@@ -42,6 +42,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <h3 className="text-xl font-bold text-gray-900 mb-2">{t('contactPage.email')}</h3>
+                                    <p className="text-gray-600">info@metafuturetechnology.com</p>
                                     <p className="text-gray-600">info@suffaheducation.com</p>
                                     <p className="text-gray-600">admissions@suffaheducation.com</p>
                                 </div>
