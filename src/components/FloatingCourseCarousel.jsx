@@ -50,7 +50,7 @@ const FloatingCourseCarousel = () => {
       price: "499Rs/mo",
       students: "120",
       duration: "6 Months",
-      image: "https://images.unsplash.com/photo-1609599006353-e629aaabfeae?w=400&h=300&fit=crop",
+      image: "/images/Basic-Qaida-Your-Gateway-to-the-Quran - Copy.jpg",
       color: "from-emerald-500 to-teal-600"
     },
     {
@@ -58,8 +58,8 @@ const FloatingCourseCarousel = () => {
       subtitle: "Complete Quran nazera program",
       price: "499Rs/mo",
       students: "85",
-      duration: "3 Years",
-      image: "https://images.unsplash.com/photo-1610458923001-76bf47d1e513?w=400&h=300&fit=crop",
+      duration: "1.5 Years",
+      image: "/images/Nazera.png",
       color: "from-blue-500 to-indigo-600"
     },
     {
@@ -67,8 +67,8 @@ const FloatingCourseCarousel = () => {
       subtitle: "Complete Hifz-e-Quran Program",
       price: "599Rs/mo",
       students: "200",
-      duration: "1 Year",
-      image: "https://images.unsplash.com/photo-1591604021695-0c69b7c05981?w=400&h=300&fit=crop",
+      duration: "3 Year",
+      image: "/images/hifz-e-quran.jpg",
       color: "from-purple-500 to-pink-600"
     },
     {
@@ -77,7 +77,7 @@ const FloatingCourseCarousel = () => {
       price: "499Rs/mo",
       students: "150",
       duration: "1 Year",
-      image: "https://images.unsplash.com/photo-1584286595398-a59511e0649f?w=400&h=300&fit=crop",
+      image: "/images/hq720.jpg",
       color: "from-amber-500 to-orange-600"
     },
     {
@@ -86,7 +86,7 @@ const FloatingCourseCarousel = () => {
       price: "399Rs/mo",
       students: "95",
       duration: "4 Months",
-      image: "https://images.unsplash.com/photo-1604608672516-f1b9b1a0b68e?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1519817650390-64a93db51149?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80p",
       color: "from-cyan-500 to-blue-600"
     },
     {
@@ -94,8 +94,8 @@ const FloatingCourseCarousel = () => {
       subtitle: "Life of Prophet Muhammad (PBUH)",
       price: "299Rs/mo",
       students: "180",
-      duration: "3 Months",
-      image: "https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?w=400&h=300&fit=crop",
+      duration: "3 Months", 
+      image: "/images/default.png",
       color: "from-rose-500 to-red-600"
     }
   ];
