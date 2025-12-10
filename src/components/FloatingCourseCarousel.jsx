@@ -85,7 +85,7 @@ const FloatingCourseCarousel = () => {
           {[...courses, ...courses].map((course, index) => (
             <div
               key={index}
-              className="flex-shrink-0 w-56 bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 hover:shadow-xl transition-all duration-300"
+              className="flex-shrink-0 w-56 bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 hover:shadow-xl transition-all duration-300npm"
             >
               {/* Course Image */}
               <div className="relative h-6 overflow-hidden">
@@ -142,7 +142,7 @@ const FloatingCourseCarousel = () => {
         }
 
         .animate-scroll {
-          animation: scroll 40s linear infinite;
+          animation: scroll 20s linear infinite;
         }
 
         .animate-scroll:hover {
