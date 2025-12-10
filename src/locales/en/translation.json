@@ -273,5 +273,11 @@
         "emailAddress": "Email Address",
         "message": "Message",
         "sendBtn": "Send Message"
+    },
+
+    "floatingCourseCarousel" : {
+    "title": " EXplore Our Courses",
+    "applyNow": "ابھی اپلائی کریں",
+    "duration": "مدت"
     }
 }

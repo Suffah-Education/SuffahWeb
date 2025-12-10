@@ -17,6 +17,7 @@
         "watchDemo": "ڈیمو دیکھیں",
         "activeStudents": "فعال طلباء",
         "courseRating": "کورس کی درجہ بندی"
+        
     },
     "stats": {
         "students": "طلباء",
@@ -271,6 +272,11 @@
         "lastName": "آخری نام",
         "emailAddress": "ای میل ایڈریس",
         "message": "پیغام",
-        "sendBtn": "پیغام بھیجیں"
-    }
+    "sendBtn": "پیغام بھیجیں"
+},
+"floatingCourseCarousel": {
+    "title": "ہمارے کورسز",
+    "applyNow": "ابھی اپلائی کریں",
+    "duration": "مدت"
+}
 }
