@@ -117,7 +117,7 @@ const Navbar = () => {
                 {/* Mobile Buttons Row - Below Main Navbar */}
                 <div className={`md:hidden flex items-center justify-center gap-3 pb-4 ${isRTL ? 'flex-row-reverse' : ''}`}>
                     <button
-                        onClick={handleGetStarted}
+                        onClick={redirectUser}
                         className="px-5 py-2 rounded-full border-2 border-blue-600 text-blue-600 font-semibold hover:bg-blue-50 transition-colors text-sm"
                     >
                         {t('nav.register')}
