@@ -48,41 +48,53 @@ const Hero = () => {
                         </div>
                     </div>
 
-                    {/* Right Content - Animated Card */}
-                    <div className="relative hidden lg:block">
+                     {/* Right Content - Animated Card (Now Responsive) */}
+                    <div className="relative w-full max-w-lg mx-auto lg:max-w-none">
                         {/* Decorative elements */}
-                        <div className="absolute -top-10 -right-10 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-                        <div className="absolute -bottom-10 -left-10 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+                        <div className="absolute -top-10 -right-10 w-48 h-48 md:w-72 md:h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+                        <div className="absolute -bottom-10 -left-10 w-48 h-48 md:w-72 md:h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
 
-                        <div className="relative bg-white/80 backdrop-blur-lg rounded-3xl p-8 shadow-2xl border border-white/50 transform rotate-2 hover:rotate-0 transition-all duration-500">
-                            <div className="flex items-start justify-between mb-8">
-                                <div>
-                                    <h3 className="text-2xl font-bold text-gray-800 font-arabic mb-2">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</h3>
-                                    <p className="text-gray-500 font-arabic">رَّبِّ زِدْنِي عِلْمًا</p>
+                        <div className="relative bg-white/80 backdrop-blur-lg rounded-3xl p-6 md:p-8 shadow-2xl border border-white/50 transform lg:rotate-2 hover:rotate-0 transition-all duration-500">
+                            <div className="flex flex-col sm:flex-row items-start justify-between gap-4 mb-6 md:mb-8">
+                                <div className="flex-1">
+                                    <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-2 text-right leading-relaxed">
+                                        بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+                                    </h3>
+                                    <p className="text-gray-500 text-sm md:text-base text-right">
+                                        ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ
+                                    </p>
                                 </div>
-                                <div className="bg-blue-100 p-3 rounded-2xl">
-                                    <BookOpen className="text-blue-600" size={32} />
+                                <div className="bg-blue-100 p-2.5 md:p-3 rounded-2xl flex-shrink-0">
+                                    <BookOpen className="text-blue-600" size={28} />
                                 </div>
                             </div>
 
-                            <div className="space-y-4">
-                                <div className="flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm">
-                                    <div className="bg-green-100 p-2 rounded-lg">
-                                        <GraduationCap className="text-green-600" size={24} />
+                            <div className="space-y-3 md:space-y-4">
+                                <div className="flex items-center gap-3 md:gap-4 bg-white p-3 md:p-4 rounded-xl shadow-sm">
+                                    <div className="bg-green-100 p-2 rounded-lg flex-shrink-0">
+                                        <GraduationCap className="text-green-600" size={20} />
                                     </div>
-                                    <div>
-                                        <p className="text-sm text-gray-500">{t('hero.activeStudents')}</p>
-                                        <p className="font-bold text-gray-800">10,000+</p>
+                                    <div className="flex-1 min-w-0">
+                                        <p className="text-xs md:text-sm text-gray-500 truncate">
+                                            {t('hero.activeStudents')}
+                                        </p>
+                                        <p className="font-bold text-gray-800 text-sm md:text-base">
+                                            10,000+
+                                        </p>
                                     </div>
                                 </div>
 
-                                <div className="flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm">
-                                    <div className="bg-yellow-100 p-2 rounded-lg">
-                                        <Star className="text-yellow-600" size={24} />
+                                <div className="flex items-center gap-3 md:gap-4 bg-white p-3 md:p-4 rounded-xl shadow-sm">
+                                    <div className="bg-yellow-100 p-2 rounded-lg flex-shrink-0">
+                                        <Star className="text-yellow-600" size={20} />
                                     </div>
-                                    <div>
-                                        <p className="text-sm text-gray-500">{t('hero.courseRating')}</p>
-                                        <p className="font-bold text-gray-800">4.9/5.0</p>
+                                    <div className="flex-1 min-w-0">
+                                        <p className="text-xs md:text-sm text-gray-500 truncate">
+                                            {t('hero.courseRating')}
+                                        </p>
+                                        <p className="font-bold text-gray-800 text-sm md:text-base">
+                                            4.9/5.0
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -90,6 +102,39 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
+
+            {/* CSS Animations */}
+            <style>{`
+                @keyframes blob {
+                    0%, 100% {
+                        transform: translate(0, 0) scale(1);
+                    }
+                    25% {
+                        transform: translate(20px, -20px) scale(1.1);
+                    }
+                    50% {
+                        transform: translate(-20px, 20px) scale(0.9);
+                    }
+                    75% {
+                        transform: translate(20px, 20px) scale(1.05);
+                    }
+                }
+
+                .animate-blob {
+                    animation: blob 7s infinite;
+                }
+
+                .animation-delay-2000 {
+                    animation-delay: 2s;
+                }
+
+                /* Additional mobile optimizations */
+                @media (max-width: 640px) {
+                    .animate-blob {
+                        animation: blob 10s infinite;
+                    }
+                }
+            `}</style>
         </section>
     );
 };

@@ -111,6 +111,22 @@ const Navbar = () => {
                         </button>
                     </div>
                 </div>
+
+                {/* Mobile Buttons Row - Below Main Navbar */}
+                <div className={`md:hidden flex items-center justify-center gap-3 pb-4 ${isRTL ? 'flex-row-reverse' : ''}`}>
+                    <button
+                        onClick={handleGetStarted}
+                        className="px-5 py-2 rounded-full border-2 border-blue-600 text-blue-600 font-semibold hover:bg-blue-50 transition-colors text-sm"
+                    >
+                        {t('nav.register')}
+                    </button>
+                    <button
+                        onClick={toggleLanguage}
+                        className="px-4 py-2 rounded-full bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-colors text-sm"
+                    >
+                        {i18n.language === 'en' ? 'اردو' : 'English'}
+                    </button>
+                </div>
             </div>
 
             {/* Mobile Menu Drawer - Full Height with Smooth Animation */}
@@ -137,7 +153,7 @@ const Navbar = () => {
                         </button>
                     </div>
 
-                    {/* Menu Items */}
+                    {/* Menu Items - Buttons Removed from Here */}
                     <div className="px-6 pt-6 pb-8 space-y-2 overflow-y-auto h-[calc(100%-80px)]">
                         {links.map((link) => (
                             <Link
@@ -152,28 +168,6 @@ const Navbar = () => {
                                 {link.name}
                             </Link>
                         ))}
-
-                        {/* Mobile Action Buttons */}
-                        <div className="mt-8 flex flex-col space-y-3 px-2">
-                            <button
-                                onClick={() => {
-                                    setIsOpen(false);
-                                    handleGetStarted();
-                                }}
-                                className="w-full text-center px-6 py-3 rounded-full border-2 border-blue-600 text-blue-600 font-semibold hover:bg-blue-50 transition-colors"
-                            >
-                                {t('nav.register')}
-                            </button>
-                            <button
-                                onClick={() => {
-                                    toggleLanguage();
-                                    setIsOpen(false);
-                                }}
-                                className="w-full px-6 py-3 rounded-full bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-colors shadow-md"
-                            >
-                                {i18n.language === 'en' ? 'اردو' : 'English'}
-                            </button>
-                        </div>
                     </div>
                 </div>
             </div>

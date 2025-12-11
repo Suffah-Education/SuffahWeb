@@ -41,6 +41,9 @@ const AboutStory = () => {
                         <p className="text-gray-600 text-lg leading-relaxed font-urdu">
                             {t('about.urduText2')}
                         </p>
+                        <p className="text-gray-600 text-lg leading-relaxed font-urdu">
+                            {t('about.urduText3')}
+                        </p>
                     </div>
                 </div>
             </div>
