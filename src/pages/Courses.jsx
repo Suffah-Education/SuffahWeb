@@ -3,9 +3,11 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { BookOpen, Clock, Users, ArrowRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { useCheckAuth } from '../hooks/useCheckAuth';
 
 const Courses = () => {
     const { t } = useTranslation();
+    const { redirectUser } = useCheckAuth();
 
     const courses = [
         {
@@ -117,9 +119,13 @@ const Courses = () => {
                                     </div>
                                 </div>
 
-                                <button className="w-full py-3 rounded-xl bg-blue-50 text-blue-600 font-bold hover:bg-blue-600 hover:text-white transition-all flex items-center justify-center gap-2 group-hover:gap-3">
+                                <button
+                                    onClick={redirectUser}
+                                    className="w-full py-3 rounded-xl bg-blue-50 text-blue-600 font-bold hover:bg-blue-600 hover:text-white transition-all flex items-center justify-center gap-2 group-hover:gap-3"
+                                >
                                     {t('courses.applyNow')} <ArrowRight size={18} />
                                 </button>
+
                             </div>
                         </div>
                     ))}

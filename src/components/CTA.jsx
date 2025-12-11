@@ -1,10 +1,11 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { useCheckAuth } from '../hooks/useCheckAuth';
 
 const CTA = () => {
     const { t } = useTranslation();
-
+    const { redirectUser } = useCheckAuth();
     return (
         <section className="py-20 bg-blue-600 relative overflow-hidden">
             {/* Background patterns */}
@@ -21,7 +22,10 @@ const CTA = () => {
                     {t('cta.subtitle')}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <button className="px-8 py-4 rounded-full bg-white text-blue-600 font-bold text-lg shadow-lg hover:bg-blue-50 transition-colors flex items-center justify-center gap-2">
+                    <button
+                        onClick={redirectUser}
+                        className="px-8 py-4 rounded-full bg-white text-blue-600 font-bold text-lg shadow-lg hover:bg-blue-50 transition-colors flex items-center justify-center gap-2"
+                    >
                         {t('cta.getStarted')} <ArrowRight size={20} />
                     </button>
                     <button className="px-8 py-4 rounded-full bg-transparent border-2 border-white text-white font-bold text-lg hover:bg-white/10 transition-colors">
