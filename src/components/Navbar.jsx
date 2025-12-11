@@ -4,11 +4,13 @@ import { Menu, X } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { useCheckAuth } from '../hooks/useCheckAuth';
 
+
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const location = useLocation();
     const { t, i18n } = useTranslation();
-    const { handleGetStarted } = useCheckAuth();
+    const { redirectUser } = useCheckAuth();
+
     const isRTL = i18n.language === 'ur';
 
     // Auto apply Urdu font + RTL on language switch
@@ -98,7 +100,7 @@ const Navbar = () => {
                     {/* Desktop Buttons */}
                     <div className={`hidden md:flex items-center ${isRTL ? 'space-x-reverse space-x-4' : 'space-x-4'}`}>
                         <button
-                            onClick={handleGetStarted}
+                            onClick={redirectUser}
                             className="px-6 py-2 rounded-full border-2 border-blue-600 text-blue-600 font-semibold hover:bg-blue-50 transition-colors"
                         >
                             {t('nav.register')}

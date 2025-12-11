@@ -5,7 +5,8 @@ import { useCheckAuth } from '../hooks/useCheckAuth';
 
 const Hero = () => {
     const { t } = useTranslation();
-    const { handleGetStarted } = useCheckAuth();
+    const { redirectUser } = useCheckAuth();
+
 
     return (
         <section className="relative bg-linear-to-br from-blue-50 to-purple-50 py-2 lg:py-10 overflow-hidden">
@@ -37,7 +38,7 @@ const Hero = () => {
 
                         <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                             <button
-                                onClick={handleGetStarted}
+                                onClick={redirectUser}
                                 className="px-8 py-4 rounded-full bg-linear-to-r from-blue-500 to-cyan-500 text-white font-bold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all"
                             >
                                 {t('hero.startLearning')}
