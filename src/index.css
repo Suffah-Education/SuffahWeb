@@ -1,5 +1,37 @@
 @import "tailwindcss";
 
+/* 1) font-face - path اپنے public/fonts کے مطابق رکھنا */
+@font-face {
+  font-family: "Jameel Noori Nastaleeq";
+  src: url("/fonts/jameel-noori-nastaleeq.woff2") format("woff2"),
+       url("/fonts/jameel-noori-nastaleeq.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 2) Tailwind custom utility (urdu-text) - readable spacing */
+@layer utilities {
+  .urdu-text {
+    line-height: 2;          /* recommended: 2.0 - 2.2 */ 
+    word-spacing: 2px;       /* thoda sa gap between words */
+    letter-spacing: 0.3px;   /* halki letter spacing */
+  }
+
+  /* agar chaho to ek helper for headings */
+  .urdu-heading {
+    line-height: 1.05;
+    word-spacing: 1px;
+    letter-spacing: 0.4px;
+  }
+}
+
+/* optional: agar global body par apply karna ho jab language Urdu ho */
+:root[lang="ur"] {
+  font-family: "Jameel Noori Nastaleeq", serif;
+}
+
+
 /* Global Urdu Font Class */
 .font-urdu {
   font-family: "Noto Nastaliq Urdu", serif !important;
