@@ -8,6 +8,8 @@ import CTA from '../components/CTA';
 import AboutStory from '../components/AboutStory';
 import Reviews from '../components/Reviews';
 import Footer from '../components/Footer';
+import FloatingCourseCarousel from '../components/FloatingCourseCarousel';
+
 
 const Home = () => {
     return (
@@ -21,6 +23,7 @@ const Home = () => {
             <AboutStory />
             <Reviews />
             <Footer />
+            <FloatingCourseCarousel />
         </div>
     );
 };

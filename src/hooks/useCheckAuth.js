@@ -1,29 +1,29 @@
-// Hook to check if user is logged in (from Dashboard localStorage)
+// useCheckAuth.js
 export const useCheckAuth = () => {
+  const DASHBOARD_URL = "https://dashboard.thesuffaheducation.com";
+
   const checkIsLoggedIn = () => {
     try {
-      const authStorage = localStorage.getItem('auth-storage');
+      const authStorage = localStorage.getItem("auth-storage");
       if (!authStorage) return false;
-      
+
       const authData = JSON.parse(authStorage);
       return !!authData.state?.token;
     } catch (error) {
-      console.error('Error checking auth:', error);
+      console.error("Error checking auth:", error);
       return false;
     }
   };
 
-  const handleGetStarted = () => {
-    const isLoggedIn = checkIsLoggedIn();
-    
-    if (isLoggedIn) {
-      // Redirect to Dashboard if logged in
-      window.location.href = 'https://dashboard-mauve-two.vercel.app/';
+  const redirectUser = () => {
+    const logged = checkIsLoggedIn();
+
+    if (logged) {
+      window.location.href = `${DASHBOARD_URL}/`;
     } else {
-      // Redirect to Login if not logged in
-      window.location.href = 'https://dashboard-mauve-two.vercel.app/login';
+      window.location.href = `${DASHBOARD_URL}/login`;
     }
   };
 
-  return { checkIsLoggedIn, handleGetStarted };
+  return { redirectUser, checkIsLoggedIn };
 };
