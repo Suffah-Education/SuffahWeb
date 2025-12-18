@@ -8,7 +8,7 @@ const Stats = () => {
     const stats = [
         {
             icon: <Users size={40} className="text-purple-600" />,
-            value: "10,000+",
+            value: "10,000+ Inshallah",
             label: t('stats.students'),
             bg: "bg-cyan-400"
         },
