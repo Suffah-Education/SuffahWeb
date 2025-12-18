@@ -20,7 +20,7 @@ const Stats = () => {
         },
         {
             icon: <Award size={40} className="text-blue-600" />,
-            value: "1,000+",
+            value: "0",
             label: t('stats.graduates'),
             bg: "bg-blue-400"
         },
