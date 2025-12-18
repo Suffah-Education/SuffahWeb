@@ -1,7 +1,7 @@
 export default {
     content: [
         "./index.html",
-        "./src/**/*.{js,ts,jsx,tsx}"
+        "./src/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
         extend: {
@@ -10,7 +10,7 @@ export default {
                 secondary: '#8b5cf6',
             },
             fontFamily: {
-                'urdu': ['"Noto Nastaliq Urdu"', 'serif'],
+                urdu: ['"Jameel Noori Nastaleeq"', 'serif'],
             },
         },
     },
